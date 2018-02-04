@@ -28,7 +28,7 @@ class Solution:
         return stack == []
 
 so = Solution()
-str = '()[]{}'
+str = '([)]'
 print(so.isValid(str))
 
 
