@@ -24,6 +24,7 @@ class Solution:
                 start = max(start, dic[ch]+1)
             dic[ch] = i
 
+        print(dic)
         return max(res, len(s) - start)
 
 so = Solution()
